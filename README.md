@@ -1,6 +1,13 @@
-# Customer-Churn-Analysis
+# Bank Customer-Churn-Analysis
 Understanding the customer churn rate is an important indicator for any firm. According to a Bain & Company research, increasing customer retention for existing customers by only 5% may increase a company's profitability by 25 to 95%.
+
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/Untitled.png)
+
 ## **Objective**
+
+* Finding the % of Churn Customers and customers that keep in with the active services.
+* Analysing the data in terms of various features responsible for customer Churn
+* Finding a most suited machine learning model for correct classification of Churn and non churn customers.
 
 
 ## **Dataset**
@@ -39,3 +46,16 @@ We then conducted an analysis of the data using Pandas, Seaborn, and Matplotlib.
 
 Compared to 16% of male clients, female consumers are 25% more likely to leave the bank.
 Germany has the fewest clients, but they are also the most likely to abandon the bank. In our study, almost one in three German consumers quit the bank.
+Customers who bought more than two products are more likely to exit a bank.
+
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/churn%20rate.JPG)
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/gender.JPG)
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/churn_gender.JPG)
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/churn_gender.JPG)
+
+### **Machine learning using different model**
+We tested seven different machine learning models to predict customer churn, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, K-Nearest Neighbor, Support Vector Machine and XGBoost. After feature engineering and hyperparameter tuning we selected the XGBoost model having highest accuracy of 93% for final prediction.
+
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/table.JPG)
+
+![Alt text](https://github.com/Tanya-Tandon02/Customer-Churn-Analysis/blob/main/Screenshot/model.JPG)
